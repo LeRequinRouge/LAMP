@@ -1,12 +1,12 @@
 # LAMP
 Web-based application development using Linux (Debian-10), Apache2 (HTTP Server), MarianDB (MySQL Database), and .PHP scripting.
 
-Here's a great tutorial for setup: https://linuxhint.com/debian_10_lamp_php_dev/ /n
-Here's the command list to set up the LAMP:
+Here's a great tutorial for setup: https://linuxhint.com/debian_10_lamp_php_dev/  
+Here's the command list to set up the LAMP:  
 
-sudo apt update
-sudo apt install mariadb-server mariadb-client
-systemctl status mariadb 
+sudo apt update  
+sudo apt install mariadb-server mariadb-client  
+systemctl status mariadb  
 sudo mysql_secure_installation
 sudo mysql -u root -p
 CREATE DATABASE app1;
